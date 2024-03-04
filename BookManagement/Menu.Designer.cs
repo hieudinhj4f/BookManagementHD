@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.agebox = new System.Windows.Forms.Label();
             this.cssbox = new System.Windows.Forms.Label();
@@ -47,23 +47,23 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.tx5 = new System.Windows.Forms.TextBox();
+            this.tx4 = new System.Windows.Forms.TextBox();
+            this.tx3 = new System.Windows.Forms.TextBox();
+            this.tx2 = new System.Windows.Forms.TextBox();
+            this.tx1 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.bOOKLISTBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.tx1 = new System.Windows.Forms.TextBox();
-            this.tx2 = new System.Windows.Forms.TextBox();
-            this.tx3 = new System.Windows.Forms.TextBox();
-            this.tx4 = new System.Windows.Forms.TextBox();
-            this.tx5 = new System.Windows.Forms.TextBox();
             this.BookListTable = new System.Windows.Forms.DataGridView();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -271,6 +271,96 @@
             this.panel1.Size = new System.Drawing.Size(327, 324);
             this.panel1.TabIndex = 2;
             // 
+            // tx5
+            // 
+            this.tx5.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx5.Location = new System.Drawing.Point(154, 151);
+            this.tx5.Name = "tx5";
+            this.tx5.Size = new System.Drawing.Size(167, 25);
+            this.tx5.TabIndex = 12;
+            // 
+            // tx4
+            // 
+            this.tx4.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx4.Location = new System.Drawing.Point(154, 119);
+            this.tx4.Name = "tx4";
+            this.tx4.Size = new System.Drawing.Size(167, 25);
+            this.tx4.TabIndex = 11;
+            // 
+            // tx3
+            // 
+            this.tx3.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx3.Location = new System.Drawing.Point(154, 88);
+            this.tx3.Name = "tx3";
+            this.tx3.Size = new System.Drawing.Size(167, 25);
+            this.tx3.TabIndex = 10;
+            // 
+            // tx2
+            // 
+            this.tx2.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx2.Location = new System.Drawing.Point(154, 53);
+            this.tx2.Name = "tx2";
+            this.tx2.Size = new System.Drawing.Size(167, 25);
+            this.tx2.TabIndex = 9;
+            // 
+            // tx1
+            // 
+            this.tx1.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tx1.Location = new System.Drawing.Point(154, 18);
+            this.tx1.Name = "tx1";
+            this.tx1.Size = new System.Drawing.Size(167, 25);
+            this.tx1.TabIndex = 8;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(21, 156);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(112, 17);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "Return Time: ";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(21, 122);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(104, 17);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "Borrow Time:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(23, 93);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(96, 17);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "Book Name: ";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(23, 58);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(120, 17);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "ID BookOwner: ";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(23, 23);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(64, 17);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "ID book";
+            // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(8, 246);
@@ -289,6 +379,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "DELETE";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -319,118 +410,20 @@
             this.panel2.Size = new System.Drawing.Size(901, 638);
             this.panel2.TabIndex = 3;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(8, 8);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 16);
-            this.label6.TabIndex = 2;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(23, 23);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(64, 17);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "ID book";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(23, 58);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(120, 17);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "ID BookOwner: ";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(23, 93);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(96, 17);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "Book Name: ";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(21, 122);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(104, 17);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "Borrow Time:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("JetBrains Mono", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(21, 156);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(112, 17);
-            this.label11.TabIndex = 7;
-            this.label11.Text = "Return Time: ";
-            // 
-            // tx1
-            // 
-            this.tx1.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx1.Location = new System.Drawing.Point(154, 18);
-            this.tx1.Name = "tx1";
-            this.tx1.Size = new System.Drawing.Size(167, 25);
-            this.tx1.TabIndex = 8;
-            // 
-            // tx2
-            // 
-            this.tx2.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx2.Location = new System.Drawing.Point(154, 53);
-            this.tx2.Name = "tx2";
-            this.tx2.Size = new System.Drawing.Size(167, 25);
-            this.tx2.TabIndex = 9;
-            // 
-            // tx3
-            // 
-            this.tx3.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx3.Location = new System.Drawing.Point(154, 88);
-            this.tx3.Name = "tx3";
-            this.tx3.Size = new System.Drawing.Size(167, 25);
-            this.tx3.TabIndex = 10;
-            // 
-            // tx4
-            // 
-            this.tx4.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx4.Location = new System.Drawing.Point(154, 119);
-            this.tx4.Name = "tx4";
-            this.tx4.Size = new System.Drawing.Size(167, 25);
-            this.tx4.TabIndex = 11;
-            // 
-            // tx5
-            // 
-            this.tx5.Font = new System.Drawing.Font("JetBrains Mono Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tx5.Location = new System.Drawing.Point(154, 151);
-            this.tx5.Name = "tx5";
-            this.tx5.Size = new System.Drawing.Size(167, 25);
-            this.tx5.TabIndex = 12;
-            // 
             // BookListTable
             // 
             this.BookListTable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.BookListTable.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.BookListTable.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.BookListTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("JetBrains Mono Medium", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.BookListTable.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("JetBrains Mono Medium", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.BookListTable.DefaultCellStyle = dataGridViewCellStyle1;
             this.BookListTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BookListTable.Location = new System.Drawing.Point(0, 0);
             this.BookListTable.Name = "BookListTable";
@@ -440,6 +433,14 @@
             this.BookListTable.Size = new System.Drawing.Size(901, 638);
             this.BookListTable.TabIndex = 3;
             this.BookListTable.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.BookListTable_CellClick);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(8, 8);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 16);
+            this.label6.TabIndex = 2;
             // 
             // Menu
             // 

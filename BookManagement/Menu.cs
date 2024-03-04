@@ -80,29 +80,31 @@ namespace BookManagement
         }
         //position
         int index = -1;
+
+
         private void BookListTable_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
             index = e.RowIndex;
-            if (index == -1) return;
-            DataRow row = ds.Tables["BookList"].Rows[index];
-            tx1.Text = row["IDbook"].ToString();
-            tx2.Text = row["IDbookOwner"].ToString();
-            tx3.Text = row["BookName"].ToString();
-            tx4.Text = row["BookBorrowTime"].ToString();
-            tx5.Text = row["BookReturnTime"].ToString();
-
-
+                
+            if (index == -1 )
+            {
+                MessageBox.Show("Your are clicking wrongfield");
+                return;
+            }
+            else
+            {
+                DataRow row = ds.Tables["BookList"].Rows[index];
+                tx1.Text = row["IDbook"].ToString();
+                tx2.Text = row["IDbookOwner"].ToString();
+                tx3.Text = row["BookName"].ToString();
+                tx4.Text = row["BookBorrowTime"].ToString();
+                tx5.Text = row["BookReturnTime"].ToString();
+            }
         }
         
         private void button1_Click(object sender, EventArgs e)
         {
-        if (index == -1)
-            {
-                MessageBox.Show("Your are clicking wrongfield");
-                return;
-
-            }
 
             DataRow row = ds.Tables["BookList"].Rows[index];
             row.BeginEdit();
@@ -129,14 +131,31 @@ namespace BookManagement
 
             ds.Tables["BookList"].Rows.Add(row);
 
-            int result = adapter.Update(ds.Tables["BookList"]);
-            if (result > 0)
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DialogResult ketqua = MessageBox.Show("Are you sure about deleting data?","WARNNING",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+            if( ketqua == DialogResult.Yes )
             {
-                MessageBox.Show("Your Data have been updated");
+                DataDelete();
+            }
+        }
+
+        private void DataDelete()
+        {
+            if (index == -1)
+            {
+                MessageBox.Show("You are not selecting any items yet?");
+                return;
             }
             else
             {
-                MessageBox.Show("Your Data update is failed!!");
+                DataRow row = ds.Tables["BookList"].Rows[index];
+                row.BeginEdit();
+                row.Delete();
+                row.EndEdit();
+
             }
         }
     }

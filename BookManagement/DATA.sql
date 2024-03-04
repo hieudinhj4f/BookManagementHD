@@ -58,8 +58,8 @@ drop table BOOKLIST
 
 
 update BOOKLIST
-set IDbookOwner = '001' , BookBorrowTime = '2024-03-01'
-where IDbook = '000002';
+set IDbookOwner = '000' , BookBorrowTime = '2024-01-01', BookReturnTime = '2024-01-01'
+
 
 update BOOKLIST
 set IDbookOwner = null , bookBorrowTime = null 
